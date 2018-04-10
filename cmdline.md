@@ -1,12 +1,12 @@
-#### '-m' command line option
+### '-m' command line option
 
-##### Create virtual environment
+#### Create virtual environment
 
 ```commandline
 python -m venv venv_dir
 ```
 
-##### HTTP server
+#### HTTP server
 
 Python2:
 
@@ -20,7 +20,7 @@ python -m http.server 8080
 python -m http.server 8080 --bind 127.0.0.1
 ```
 
-##### Pretty print JSON
+#### Pretty print JSON
 
 ```commandline
 echo '{"foo": "bar", "spam": "ham"}' | python3 -m json.tool
@@ -32,7 +32,7 @@ echo '{"foo": "bar", "spam": "ham"}' | python3 -m json.tool
 python -m doctest test_file.py
 ```
 
-##### Create/extract *.tar files
+#### Create/extract *.tar files
 See [docs](https://docs.python.org/3/library/tarfile.html#command-line-interface) for details
 
 ```commandline
